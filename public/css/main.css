@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*Navbar*/
+
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .right {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.navbar .left {
+    margin-left: 10px;
+}
+
+.navbar .right a, .navbar .left a{
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar .right a:last-child{
+    margin-right: 0px;
+}
+
+.navbar .nbalogo{
+    width: 80px;
+    padding: 10px 0 10px 0px;
+    margin-left: 30px;
+}
+
+.navbar .nbalogo img{
+    width:100%;
+}
